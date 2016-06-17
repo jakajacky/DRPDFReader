@@ -2,7 +2,7 @@
 //  ViewController.h
 //  DRPDFReader
 //
-//  Created by xqzh on 16/6/15.
+//  Created by xqzh on 16/6/16.
 //  Copyright © 2016年 xqzh. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

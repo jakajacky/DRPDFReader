@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2A16D4B1D13FE2400797472 /* DRPDFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A16D491D13FE2400797472 /* DRPDFPageViewController.m */; };
+		F2A16D4C1D13FE2400797472 /* DRPDFPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A16D4A1D13FE2400797472 /* DRPDFPageViewController.xib */; };
+		F2B19BF11D127F3B00DA9E2E /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F2B19BF01D127F3A00DA9E2E /* 2.pdf */; };
+		F2B19BF41D1283C800DA9E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B19BF31D1283C800DA9E2E /* ViewController.m */; };
+		F2B19BF91D129FA500DA9E2E /* DRPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B19BF81D129FA500DA9E2E /* DRPDFViewController.m */; };
 		F2E5A9801D11386400F99B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A97F1D11386400F99B38 /* main.m */; };
 		F2E5A9831D11386400F99B38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9821D11386400F99B38 /* AppDelegate.m */; };
-		F2E5A9861D11386400F99B38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9851D11386400F99B38 /* ViewController.m */; };
 		F2E5A9891D11386400F99B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E5A9871D11386400F99B38 /* Main.storyboard */; };
 		F2E5A98B1D11386400F99B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E5A98A1D11386400F99B38 /* Assets.xcassets */; };
 		F2E5A98E1D11386400F99B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E5A98C1D11386400F99B38 /* LaunchScreen.storyboard */; };
 		F2E5A9991D11386500F99B38 /* DRPDFReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9981D11386500F99B38 /* DRPDFReaderTests.m */; };
 		F2E5A9A41D11386500F99B38 /* DRPDFReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9A31D11386500F99B38 /* DRPDFReaderUITests.m */; };
+		F2E5A9BA1D1141A400F99B38 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F2E5A9B91D1141A400F99B38 /* 1.pdf */; };
+		F2E5A9BE1D114EB700F99B38 /* DRPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9BD1D114EB700F99B38 /* DRPDFView.m */; };
+		F2E5A9C11D1151BD00F99B38 /* DRPDFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E5A9C01D1151BD00F99B38 /* DRPDFReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2A16D481D13FE2400797472 /* DRPDFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPDFPageViewController.h; sourceTree = "<group>"; };
+		F2A16D491D13FE2400797472 /* DRPDFPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPDFPageViewController.m; sourceTree = "<group>"; };
+		F2A16D4A1D13FE2400797472 /* DRPDFPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRPDFPageViewController.xib; sourceTree = "<group>"; };
+		F2B19BF01D127F3A00DA9E2E /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
+		F2B19BF21D1283C800DA9E2E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2B19BF31D1283C800DA9E2E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2B19BF71D129FA500DA9E2E /* DRPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPDFViewController.h; sourceTree = "<group>"; };
+		F2B19BF81D129FA500DA9E2E /* DRPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPDFViewController.m; sourceTree = "<group>"; };
 		F2E5A97B1D11386400F99B38 /* DRPDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRPDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E5A97F1D11386400F99B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2E5A9811D11386400F99B38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2E5A9821D11386400F99B38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2E5A9841D11386400F99B38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2E5A9851D11386400F99B38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F2E5A9881D11386400F99B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2E5A98A1D11386400F99B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E5A98D1D11386400F99B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		F2E5A99F1D11386500F99B38 /* DRPDFReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRPDFReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E5A9A31D11386500F99B38 /* DRPDFReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRPDFReaderUITests.m; sourceTree = "<group>"; };
 		F2E5A9A51D11386500F99B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E5A9B91D1141A400F99B38 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		F2E5A9BC1D114EB700F99B38 /* DRPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPDFView.h; sourceTree = "<group>"; };
+		F2E5A9BD1D114EB700F99B38 /* DRPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPDFView.m; sourceTree = "<group>"; };
+		F2E5A9BF1D1151BD00F99B38 /* DRPDFReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPDFReader.h; sourceTree = "<group>"; };
+		F2E5A9C01D1151BD00F99B38 /* DRPDFReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPDFReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +121,15 @@
 			children = (
 				F2E5A9811D11386400F99B38 /* AppDelegate.h */,
 				F2E5A9821D11386400F99B38 /* AppDelegate.m */,
-				F2E5A9841D11386400F99B38 /* ViewController.h */,
-				F2E5A9851D11386400F99B38 /* ViewController.m */,
+				F2B19BF21D1283C800DA9E2E /* ViewController.h */,
+				F2B19BF31D1283C800DA9E2E /* ViewController.m */,
+				F2E5A9BB1D114EA200F99B38 /* DRPDFReader */,
 				F2E5A9871D11386400F99B38 /* Main.storyboard */,
 				F2E5A98A1D11386400F99B38 /* Assets.xcassets */,
 				F2E5A98C1D11386400F99B38 /* LaunchScreen.storyboard */,
 				F2E5A98F1D11386400F99B38 /* Info.plist */,
+				F2E5A9B91D1141A400F99B38 /* 1.pdf */,
+				F2B19BF01D127F3A00DA9E2E /* 2.pdf */,
 				F2E5A97E1D11386400F99B38 /* Supporting Files */,
 			);
 			path = DRPDFReader;
@@ -138,6 +159,22 @@
 				F2E5A9A51D11386500F99B38 /* Info.plist */,
 			);
 			path = DRPDFReaderUITests;
+			sourceTree = "<group>";
+		};
+		F2E5A9BB1D114EA200F99B38 /* DRPDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				F2B19BF71D129FA500DA9E2E /* DRPDFViewController.h */,
+				F2B19BF81D129FA500DA9E2E /* DRPDFViewController.m */,
+				F2A16D481D13FE2400797472 /* DRPDFPageViewController.h */,
+				F2A16D491D13FE2400797472 /* DRPDFPageViewController.m */,
+				F2A16D4A1D13FE2400797472 /* DRPDFPageViewController.xib */,
+				F2E5A9BC1D114EB700F99B38 /* DRPDFView.h */,
+				F2E5A9BD1D114EB700F99B38 /* DRPDFView.m */,
+				F2E5A9BF1D1151BD00F99B38 /* DRPDFReader.h */,
+				F2E5A9C01D1151BD00F99B38 /* DRPDFReader.m */,
+			);
+			path = DRPDFReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +244,7 @@
 				TargetAttributes = {
 					F2E5A97A1D11386400F99B38 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X342LX7QRW;
 					};
 					F2E5A9931D11386500F99B38 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +281,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A16D4C1D13FE2400797472 /* DRPDFPageViewController.xib in Resources */,
 				F2E5A98E1D11386400F99B38 /* LaunchScreen.storyboard in Resources */,
 				F2E5A98B1D11386400F99B38 /* Assets.xcassets in Resources */,
+				F2E5A9BA1D1141A400F99B38 /* 1.pdf in Resources */,
 				F2E5A9891D11386400F99B38 /* Main.storyboard in Resources */,
+				F2B19BF11D127F3B00DA9E2E /* 2.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E5A9861D11386400F99B38 /* ViewController.m in Sources */,
+				F2B19BF41D1283C800DA9E2E /* ViewController.m in Sources */,
 				F2E5A9831D11386400F99B38 /* AppDelegate.m in Sources */,
+				F2E5A9BE1D114EB700F99B38 /* DRPDFView.m in Sources */,
 				F2E5A9801D11386400F99B38 /* main.m in Sources */,
+				F2E5A9C11D1151BD00F99B38 /* DRPDFReader.m in Sources */,
+				F2A16D4B1D13FE2400797472 /* DRPDFPageViewController.m in Sources */,
+				F2B19BF91D129FA500DA9E2E /* DRPDFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DRPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.DRPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DRPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.DRPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +547,7 @@
 				F2E5A9AA1D11386500F99B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2E5A9AB1D11386500F99B38 /* Build configuration list for PBXNativeTarget "DRPDFReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +556,7 @@
 				F2E5A9AD1D11386500F99B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2E5A9AE1D11386500F99B38 /* Build configuration list for PBXNativeTarget "DRPDFReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +565,7 @@
 				F2E5A9B01D11386500F99B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
