@@ -14,7 +14,6 @@
 
 - (instancetype)initWithFrame:(CGRect)frame page:(NSInteger)pageNum;
 
-- (instancetype)initWithpage:(NSInteger)pageNum;
 
 + (NSInteger)getPdfPageNumber:(NSString *)filename;
 

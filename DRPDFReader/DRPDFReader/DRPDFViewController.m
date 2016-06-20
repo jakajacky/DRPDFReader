@@ -91,8 +91,8 @@
     if ((index == 0) || (index == NSNotFound)) {
         
         if (index == 0) {
-            self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
-            [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
+            self.pageController.viewControllers[0].view.subviews[0].frame = [UIScreen mainScreen].bounds;
+            [self.pageController.viewControllers[0].view.subviews[0] setNeedsDisplay];
         }
         
         return nil;
@@ -107,8 +107,8 @@
     
     // 不用我们去操心每个ViewController的顺序问题。
     
-    self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
-    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
+    self.pageController.viewControllers[0].view.subviews[0].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[0] setNeedsDisplay];
     
     return [self viewControllerAtIndex:index];
     
@@ -139,8 +139,8 @@
         
     }
     
-    self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
-    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
+    self.pageController.viewControllers[0].view.subviews[0].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[0] setNeedsDisplay];
     
     return [self viewControllerAtIndex:index];
     
@@ -179,7 +179,7 @@
 // 根据数组元素值，得到下标值
 - (NSUInteger)indexOfViewController:(UIViewController *)viewController {
     
-    return [self.array indexOfObject:viewController.view.subviews[1]];
+    return [self.array indexOfObject:viewController.view.subviews[0]];
 //    return [self.array indexOfObject:viewController];
     
 }
@@ -192,8 +192,8 @@
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     NSLog(@"%d", [UIApplication sharedApplication].statusBarOrientation);
-    self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
-    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
+    self.pageController.viewControllers[0].view.subviews[0].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[0] setNeedsDisplay];
     return UIInterfaceOrientationMaskAllButUpsideDown;
 }
 

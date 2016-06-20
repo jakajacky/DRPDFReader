@@ -32,8 +32,8 @@
     // 获取上下文
     myContext = UIGraphicsGetCurrentContext();
     CGContextTranslateCTM(myContext, (self.frame.size.width - 610) / 2, (self.frame.size.height + 800) / 2);
-    NSLog(@"%f, %f", (self.frame.size.width - 610) / 2, (self.frame.size.height + 800) / 2);
     CGContextScaleCTM(myContext, 1, -1);
+    
     NSString *f = [[NSBundle mainBundle] pathForResource:_fileName ofType:@"pdf"];
     [self DisplayPDFPage:myContext num:pagenum name:f];
     
