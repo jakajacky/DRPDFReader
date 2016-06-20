@@ -90,6 +90,11 @@
     
     if ((index == 0) || (index == NSNotFound)) {
         
+        if (index == 0) {
+            self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
+            [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
+        }
+        
         return nil;
         
     }
@@ -101,6 +106,9 @@
     // UIPageViewController对象会根据UIPageViewControllerDataSource协议方法，自动来维护次序。
     
     // 不用我们去操心每个ViewController的顺序问题。
+    
+    self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
     
     return [self viewControllerAtIndex:index];
     
@@ -131,7 +139,8 @@
         
     }
     
-//    self.pageController.viewControllers[0].view.subviews[0].frame = [UIScreen mainScreen].bounds;
+    self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
     
     return [self viewControllerAtIndex:index];
     
@@ -158,11 +167,10 @@
     DRPDFPageViewController *dataViewController =[[DRPDFPageViewController alloc] init];
     
     DRPDFView *p = [self.array objectAtIndex:index];
-//    p.frame = [UIScreen mainScreen].bounds;
+    p.frame = [UIScreen mainScreen].bounds;
     [dataViewController.view addSubview:p];
     
     NSLog(@"%@", dataViewController.view.subviews);
-//    DRPDFPageViewController *dataViewController = self.array[index];
     return dataViewController;
     
 }
@@ -185,6 +193,7 @@
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     NSLog(@"%d", [UIApplication sharedApplication].statusBarOrientation);
     self.pageController.viewControllers[0].view.subviews[1].frame = [UIScreen mainScreen].bounds;
+    [self.pageController.viewControllers[0].view.subviews[1] setNeedsDisplay];
     return UIInterfaceOrientationMaskAllButUpsideDown;
 }
 

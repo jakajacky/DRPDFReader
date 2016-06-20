@@ -28,6 +28,7 @@
 
 - (void) drawRect:(CGRect)rect {
     self.frame = [UIScreen mainScreen].bounds;
+    NSLog(@"%f---%f", [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
     // 获取上下文
     myContext = UIGraphicsGetCurrentContext();
     CGContextTranslateCTM(myContext, (self.frame.size.width - 610) / 2, (self.frame.size.height + 800) / 2);
